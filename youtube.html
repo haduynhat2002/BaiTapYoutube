@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You Tube</title>
+    <link rel="stylesheet" href="css/youtube.css">
+
+</head>
+<body>
+<div class="col-1">
+    <img src="image/Cap.PNG" width=100%>
+</div>
+<article id="menu" class="col-10">
+    <label>
+        Nhập từ khoá
+    </label>
+    <input type="text" name="keyword" class="long-input" placeholder="Tìm kiếm..">
+    <input type="button" name="btn-add" value="Search">
+    <div class="title"></div>
+</article>
+<div id="item-list"></div>
+<div id="myModal" class="modal">
+    <span class="close" id="myClose">&times;</span>
+    <div class="Animation">
+        <iframe id="video-frame" width="560" height="315"
+                src="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
+<script src="js/youtube.js"></script>
+</body>
+</html>
